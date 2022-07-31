@@ -82,7 +82,7 @@ const Todo = () => {
                   <section className="vh-100">
                         <div className="container py-5 h-100">
                               <div className="row d-flex justify-content-center align-items-center h-100">
-                                    <div className="col col-lg-11 col-xl-9">
+                                    <div className="col col-lg-11 col-xl-9 col-xxl-12">
                                           <div className="card rounded-3">
                                                 <div className="card-body p-4">
 
@@ -103,7 +103,7 @@ const Todo = () => {
                                                                         <h3 className='main-titles pb-3'>Added all Tasks Here</h3>
                                                                         {taskValid ? <p className='view-message'><FcTodoList /></p> : ''}
 
-                                                                        <Todolist searchTasks={searchTasks} searchItem={searchItem} doneList={doneList} settaskValid={settaskValid} filterList={filterList} todo={todo} />
+                                                                        <Todolist searchTasks={searchTasks} doneList={doneList} filterList={filterList} todo={todo} />
                                                                   </div>
                                                                   <hr className="bottom-border" />
                                                                   <div className="col-md-12 col-lg-6">
