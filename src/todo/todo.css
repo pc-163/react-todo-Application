@@ -1,0 +1,170 @@
+.form-outline .form-control {
+    border: 1px solid #bdbdbd;
+}
+
+.col-pc-5 {
+    width: 40%;
+}
+
+.col-pc-2 {
+    width: 20%;
+}
+
+input.form1 {
+    width: 100%;
+    padding: 5px 15px;
+    border: 2px solid #f9f9f9;
+    border-radius: 0;
+}
+
+.col-pc-2 input {
+    width: 100%;
+}
+
+.my-table-row p {
+    margin-bottom: 0;
+}
+
+.my-table-row {
+    display: flex;
+    align-items: center;
+    /* border-bottom: 2px solid #f9f9f9; */
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #f9f9f9;
+    padding: 10px 16px;
+}
+
+.my-table-row td {
+    width: 40%;
+    padding: 0;
+    border: 0;
+}
+
+.button-list {
+    width: 20% !important;
+
+}
+
+.button-list button {
+    width: 100%;
+    padding: 6px;
+    font-size: 10px;
+}
+
+.button-list.completed-list button {
+    background-color: #ff0000;
+    cursor: not-allowed;
+}
+
+.complete-row {
+    border: 2px solid #008000;
+    padding: 10px 16px;
+    cursor: not-allowed;
+}
+
+.main-titles {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.border-end {
+    border: 2px solid #f9f9f9;
+    padding: 30px 20px;
+
+}
+
+.table,
+.table tbody {
+    width: 100%;
+    float: left;
+}
+
+.view-message {
+    text-align: center;
+}
+
+.tag-filter {
+    color: rgb(31, 118, 231);
+    cursor: pointer;
+}
+.bottom-border {
+    display: none;
+}
+.single-tags {
+    display: flex;
+}
+.single-tags p{
+    padding-right: 8px;
+}
+#link-disabled p{
+    cursor: not-allowed;
+}
+.view-message svg{
+   font-size: 50px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .row-wrap-m {
+        flex-direction: column;
+    }
+
+    .row-wrap-m .col-12,
+    .my-table-row td {
+        width: 100%;
+    }
+
+    .border-end {
+        padding: 15px;
+    }
+
+    .main-titles {
+        font-size: 20px;
+
+    }
+
+    .my-table-row {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .my-table-row td {
+        text-align: center;
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .button-list button {
+        font-size: 16px;
+    }
+
+    .button-list {
+        width: 60% !important;
+    }
+
+    .bottom-border {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bottom-border~.col-lg-6 {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 100%;
+        width: 100%;
+    }
+}
