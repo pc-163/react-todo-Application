@@ -1,4 +1,4 @@
-# reactTodo-Application Live Url-
+# react-todo-application live
 https://csb-q4ukme.netlify.app/
 # reactTodo-Application Demo
 ![image](https://user-images.githubusercontent.com/61462192/182020855-1628fae0-9211-4d97-bda0-60358c28ebda.png)
